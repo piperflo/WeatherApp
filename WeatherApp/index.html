@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!--<img src="#">-->
+    <div id="weather-container">
+        <div id="content">
+            <div id="weather">
+                <h2 id="city">City, State</h2>
+                <h3 id="date-time">day date/time</h3>
+                <div id="modal-container">
+                    <form id="modal-weather">
+                        <span><input type="text" id="input" name="input" value="" placeholder="Kansas City..."/></span>
+                        <div class="buttons">
+                            <button id="location">Location</button>
+                        </div>
+                    </form>
+                </div>
+                <div id="temp-container">
+                    <div id="temp">Temp</div>
+                    <img src="#" id="temp-image">
+                </div>
+                <div id="temp-text">day forecast</div>
+                <h3 class="forecast-heading">Tomorrow's Forecast</h3>
+                <div id="tomorrow-forecast">
+                    <h3 id="tomorrow-weather">tomorrow date info</h3>
+                    <h3 id="max-temp">max-temp</h3>
+                    <h3 id="min-temp">min-temp</h3>
+                    <h3 id="rain-chance">rain-chance</h3>
+                </div> 
+            </div> 
+        </div>       
+    </div>
+</body>
+<script src="weatherapp.js"> </script>
+</html>
