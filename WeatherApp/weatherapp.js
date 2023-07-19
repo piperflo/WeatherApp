@@ -58,7 +58,7 @@ async function setWeatherData(data){
 
     const t = new Date(data.forecast.forecastday[2].date);
 
-    toWeather.textContent = "Date " + t.toDateString();
+    toWeather.textContent = "Date: " + t.toDateString();
     toMaxTemp.textContent = "Max Temp: " + data.forecast.forecastday[1].day.maxtemp_f + "°F";
     toMinTemp.textContent = "Min Temp: " + data.forecast.forecastday[1].day.mintemp_f + "°F";
     toRain.textContent = "Chance of rain: " + data.forecast.forecastday[1].day.daily_chance_of_rain + "%";
