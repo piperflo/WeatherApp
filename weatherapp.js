@@ -20,7 +20,7 @@ loc.addEventListener("click", function(event){
 
 async function getWeatherData(weatherLocation) {
     try {
-        const response = await fetch('http://api.weatherapi.com/v1/forecast.json?key=51d81f56576b4aa4a45170859231107&q=' + weatherLocation + '&days=3', {mode: 'cors'});
+        const response = await fetch('https://api.weatherapi.com/v1/forecast.json?key=51d81f56576b4aa4a45170859231107&q=' + weatherLocation + '&days=3', {mode: 'cors'});
         const data = await response.json(); 
         setWeatherData(data);
         return data;
