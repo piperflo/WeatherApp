@@ -1,6 +1,5 @@
 # WeatherApp
 
-# Features
 *Using  WeatherApi.com, we are givin access to weather and geo data.
 
 *Just input a location and recieve weather updates 
